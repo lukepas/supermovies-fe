@@ -1,5 +1,7 @@
+import Router from "./config/Router/Router";
+
 const App = () => {
-  return <h1 className="text-3xl font-bold underline">Loading...</h1>;
+  return <Router />;
 };
 
 export default App;
